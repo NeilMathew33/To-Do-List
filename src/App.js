@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AddToDo from './Components/AddToDo';
 import ViewAllTodos from './Components/ViewAllTodos';
 import Login from './Components/Login';
+import SignUp from './Components/Signup';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Route path="/Add" element={<AddToDo />} />
     <Route path="/ViewAll" element={<ViewAllTodos />} />
     <Route path="/" element={<Login />} />
+    <Route path="/SignUp" element={<SignUp />} />
    </Routes>
    </BrowserRouter>
   );
